@@ -1,3 +1,4 @@
+import 'package:example2/screen/play_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'screen/home_screen.dart';
@@ -14,10 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-     
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen()
+      home: const PlayScreen(),
     );
   }
 }
