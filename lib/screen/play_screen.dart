@@ -51,8 +51,7 @@ class _PlayScreenState extends State<PlayScreen> {
                   children: [
                     TextFormField(
                       controller: nameController,
-                      decoration: InputDecoration(
-            
+                      decoration: InputDecoration(            
                         hintText: "ชื่อ-สกุล",
                         label: Text(
                           "ชื่อ-สกุล",
